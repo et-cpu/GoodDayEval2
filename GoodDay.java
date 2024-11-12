@@ -145,7 +145,7 @@ public class GoodDay {
         description.append("Today's Weather: ");
         if (isWeatherGood()) {
             description.append("Good (Temperature: ").append(temperature)
-                    .append("°C, Humidity: ").append(humidity).append("%). ");
+                    .append("°F, Humidity: ").append(humidity).append("%). ");
         } else {
             description.append("Bad. ");
         }
